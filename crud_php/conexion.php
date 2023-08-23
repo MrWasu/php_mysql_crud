@@ -7,6 +7,6 @@
     //Probar conexión
     if(mysqli_connect_errno()){
         echo "Fallo al conectarse a Mysql: "  .mysqli_connect_error();
-    }/* else{
+    } else{
         echo "Conectado correctamente";
-    } */
+    } 
